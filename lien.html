@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+body{
+	background-image:url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 170%;
+	}
+a{
+	text-decoration:none;
+	color:#FFF;
+	
+	}
+</style>
+<script language="javascript">
+function verif2(){
+var t=confirm("vous aver continue");
+while(t==false){
+	var t2=confirm("au revoir; vous aver retourner");
+	if(t2==false){
+	while (t2==false){
+	var t2=confirm("au revoir; vous aver retourner");}}
+	else{var t=confirm("vous aver continue");}}
+}
+function aud(){
+	var song=document.getElementById("song")
+var r=document.getElementById("r")
+r.onclick=function(){
+if(song.paused){	
+song.play();}
+else{
+	song.paused();
+	}
+}
+}
+</script>
+</head>
+
+<body>
+<p><a href="recette.html" target="mainFrame">recette</a></p>
+<p><a href="inscription.html" target="mainFrame">inscription</a></p>
+<p><a href="deponse.html" target="mainFrame">deponse</a></p>
+<p><a href="listeres.html" target="mainFrame">liste recette</a></p>
+<p><a href="listedep.html" target="mainFrame">liste deponse</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form id="form1" name="form1" method="post" action="" onsubmit="">
+  <p>
+    <input type="button" name="r" id="r" value="listen" onclick="aud()"  />
+  </p>
+  <p>
+    <input type="submit" name="r2" id="r2" value="retour" onclick="verif2()" />
+  </p>
+</form>
+<audio  loop  id="song" >
+  <source src="اغنية Infected (مترجمة)-[onlinevideoconverter.com].ogg" type="audio/ogg">
+  <source src="اغنية Infected (مترجمة)-[onlinevideoconverter.com].mp3" type="audio/mp3">
+</audio>
+<p>&nbsp;</p>
+</body>
+</html>
