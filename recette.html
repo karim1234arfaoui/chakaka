@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="script.js" language="javascript">
+</script>
+<style type="text/css">
+body{
+	background-image: url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 150%;
+	text-align: center;
+	}
+.titre {
+	text-decoration: underline;
+	color: #FFF;
+	text-align: center;
+}
+h1 {
+	color: #FFF;
+	text-decoration: underline;
+	text-align:center;
+}
+.h1 {
+	color: #FFF;
+	text-decoration: underline;
+	
+}
+.as {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<form id="form2" name="form2" method="post" action="recette.php" onsubmit="return verif()">
+  <p class="titre">&nbsp;</p>
+  <p class="titre">&nbsp;</p>
+  <p class="titre">&nbsp;</p>
+  <p class="titre">&nbsp;</p>
+  <p class="titre">&nbsp;</p>
+  <p class="titre">&nbsp;</p>
+  <p class="titre">&nbsp;</p>
+  <p class="titre">Recette</p>
+  <p class="titre">origine <span class="as">
+    <select name="o" id="o">
+      <option value="mon pere">mon pere</option>
+      <option value="ma mere">ma mere</option>
+      <option value="mon frere">mon frere</option>
+      <option value="ma soeur">ma soeur</option>
+      <option value="autres">autres</option>
+    </select>
+  </span></p>
+  <p class="titre">date recette <span class="as">
+  <input type="date" name="d" id="d" />
+  </span></p>
+  <p class="titre">montant recette<span class="as">
+    <input type="text" name="m" id="m" />
+  </span></p>
+  <p class="titre">ncin <span class="as">
+    <input type="text" name="ncin" id="ncin" />
+  </span></p>
+  <p class="titre"><span class="as">
+    <input type="submit" name="e" id="e" value="envoyer" />
+    </span><span class="as">
+      <input type="reset" name="a" id="a" value="annuler" />
+    </span></p>
+  <p></p>
+</form>
+<p>
+  <input type="submit" name="v" id="v" value="verif" onclick="verif1()" />
+</p>
+</body>
+</html>
